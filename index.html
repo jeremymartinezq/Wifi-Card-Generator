@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WiFi Card Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>WiFi Card Generator</h1>
+    </header>
+    
+    <main>
+        <div class="card-container">
+            <h2>WiFi Login</h2>
+            <div class="internal">
+                <div id="qrcode"></div>
+                
+                <div class="inputs">
+                    <label>
+                        Network name
+                        <input type="text" class="ssid" id="ssid" placeholder="WiFi network name">
+                    </label>
+                    <label>
+                        Password
+                        <input type="text" class="password" id="password" placeholder="Password">
+                    </label>
+                </div>
+            </div>
+            
+            <p>
+                📱 Point your phone's camera at the QR code to connect to WiFi
+            </p>
+            
+            <button type="button" id="printBtn">Print WiFi Card</button>
+        </div>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
