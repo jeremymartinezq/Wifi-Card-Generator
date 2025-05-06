@@ -34,3 +34,6 @@ This application runs entirely in your browser. Your WiFi credentials are never 
 ## License
 
 MIT 
+
+## Author
+Developed by Jeremy Martinez-Quinones.
