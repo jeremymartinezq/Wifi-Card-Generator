@@ -1,6 +1,8 @@
 # WiFi Card Generator
 
 A simple web application that generates a printable WiFi card with a QR code. When visitors scan the QR code with their phone's camera, they can easily connect to your WiFi network without typing the password.
+![Screenshot 2025-05-06 002319](https://github.com/user-attachments/assets/6e88bda2-90de-40e4-81e7-b4e0cd236b2b)
+
 
 ## Features
 
